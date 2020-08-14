@@ -304,6 +304,9 @@ $(document).ready(function () {
         $("#main").removeClass("none");
         $("#main").addClass("show");
     });
+
+    openClass2(null, 'class6')
+    openClass(null,'class1')
 });
 
 function openClass(evt, className) {
@@ -317,7 +320,10 @@ function openClass(evt, className) {
         tablinks[i].classList.remove("actselectbtncolor");
     }
     document.getElementById(className).style.display = "block";
+
     evt.currentTarget.classList.add("actselectbtncolor");
+    if (!evt) return;
+    evt.currentTarget.classList.add("actselectbtncolor2");
 }
 
 //var mybtn = document.getElementsByClassName("testbtn")[0];
@@ -334,6 +340,7 @@ function openClass2(evt, className) {
         tablinks[i].classList.remove("actselectbtncolor2");
     }
     document.getElementById(className).style.display = "block";
+    if (!evt) return;
     evt.currentTarget.classList.add("actselectbtncolor2");
 }
 

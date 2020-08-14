@@ -16,6 +16,11 @@ body {
     background-color: #f8b73b;
 }*/
 
+#class2,#class3,#class5 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .logoSize {
     width: 100px;
 }
@@ -1423,6 +1428,10 @@ a {
     margin-bottom: 10%;
 }
 
+.mb50 {
+    margin-bottom: 50%;
+}
+
 .ml3 {
     margin-left: 3%;
 }
@@ -2246,20 +2255,19 @@ textarea {
 
 /* <!-- 活動選擇按鈕1  --> */
 .actselectbtn {
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     margin-top: 2%;
     font-size: 2rem;
-    /* height: 50px; */
+    height: 50px;
     width: 200px;
     text-align: center;
-    background: #ccc;
+    background: #f0ad4e;
     color: #000;
     display: inline-block;
 }
 
     .actselectbtn:hover {
-        color: white;
-        background-color: rgb(140, 151, 114);
+        background-color: #d69539;
         text-decoration: none
     }
 
@@ -2531,6 +2539,8 @@ textarea {
 /* 購物車 */
 #class4 {
     height: 600px;
+    margin-top:50px;
+    margin-bottom:100px;
 }
 
 .shoppingcart {
